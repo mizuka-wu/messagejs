@@ -1,7 +1,8 @@
 {
   "name": "simple-message",
-  "private": true,
-  "version": "0.0.0",
+  "description": "A simple message",
+  "main": "dist/index.js",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "dev": "vite",

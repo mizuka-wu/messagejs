@@ -1,13 +1,25 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + TS</title>
+</head>
+
+<body>
+  <div id="app">
+    <input id="message" value="hello world">
+    <button id="success">Success 成功</button>
+    <button id="error">Error 错误</button>
+    <button id="warning">Warning 警告</button>
+    <button id="loading">Loading 加载</button>
+    <button id="info">Info 信息</button>
+
+    <input type="checkbox" id="closeable"> Closeable可关闭
+  </div>
+  <script type="module" src="/demo.ts"></script>
+</body>
+
 </html>

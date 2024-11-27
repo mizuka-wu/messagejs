@@ -1,5 +1,5 @@
 {
-  "name": "messagejs",
+  "name": "@mizuka/messagejs",
   "description": "A simple message toast without any dependencies",
   "keywords": [
     "message",

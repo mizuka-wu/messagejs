@@ -81,7 +81,7 @@ Install messagejs using one of the following methods:
 **Using `npm`** &nbsp;
 
 ```sh
-npm install messagejs --save
+npm install @mizuka/messagejs --save
 ```
 
 ### -Usage
@@ -90,7 +90,7 @@ Run messagejs using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```typescript
-import { Message } from "messagejs";
+import { Message } from "@mizuka/messagejs";
 
 function showMessage(
   type: "success" | "error" | "info" | "warning" | "loading"

@@ -6,6 +6,7 @@
     "toast",
     "typescript"
   ],
+  "types": "./dist/simple-message.d.ts",
   "main": "./dist/simple-message.umd.cjs",
   "version": "0.0.1",
   "type": "module",

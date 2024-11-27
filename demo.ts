@@ -8,7 +8,7 @@ function getMessage(): string {
   return (document.getElementById("message") as HTMLInputElement).value;
 }
 
-function showSuccess(
+function showMessage(
   type: "success" | "error" | "info" | "warning" | "loading"
 ): Message {
   const result = Message[type](getMessage(), {
@@ -19,21 +19,21 @@ function showSuccess(
 }
 
 document.getElementById("success")?.addEventListener("click", () => {
-  showSuccess("success");
+  showMessage("success");
 });
 
 document.getElementById("error")?.addEventListener("click", () => {
-  showSuccess("error");
+  showMessage("error");
 });
 
 document.getElementById("info")?.addEventListener("click", () => {
-  showSuccess("info");
+  showMessage("info");
 });
 
 document.getElementById("warning")?.addEventListener("click", () => {
-  showSuccess("warning");
+  showMessage("warning");
 });
 
 document.getElementById("loading")?.addEventListener("click", () => {
-  showSuccess("loading");
+  showMessage("loading");
 });

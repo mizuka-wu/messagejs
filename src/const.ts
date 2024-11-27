@@ -1,4 +1,4 @@
-export const CLASS_NAME = "simple-message";
+export const CLASS_NAME = "message";
 
 export const IN_DURECTION = 300;
 export const OUT_DURECTION = 300;

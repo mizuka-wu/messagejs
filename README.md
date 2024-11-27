@@ -1,14 +1,14 @@
 <div align="left" style="position: relative;">
 <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTc3IiBoZWlnaHQ9IjY0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogIDxnIGlkPSJzdmdfOCI+CiAgIDxwYXRoIGlkPSJzdmdfMSIgZD0ibTAsNmMwLC0zLjI2MDI3IDIuNzM5NzMsLTYgNiwtNmwxNjUsMGMzLjI2MDI3LDAgNiwyLjczOTczIDYsNmwwLDUyYzAsMy4yNjAyNyAtMi43Mzk3Myw2IC02LDZsLTE2NSwwYy0zLjI2MDI3LDAgLTYsLTIuNzM5NzMgLTYsLTZsMCwtNTJ6IiBvcGFjaXR5PSJ1bmRlZmluZWQiIHN0cm9rZT0iIzY3YzIzYSIgZmlsbD0iI2VmZjhlYiIvPgogICA8dGV4dCB4bWw6c3BhY2U9InByZXNlcnZlIiB0ZXh0LWFuY2hvcj0ic3RhcnQiIGZvbnQtZmFtaWx5PSJOb3RvIFNhbnMgSlAiIGZvbnQtc2l6ZT0iMjQiIGlkPSJzdmdfNyIgeT0iNDAuNzUiIHg9Ijc1Ljc1IiBzdHJva2U9IiM2N2MyM2EiIGZpbGw9IiNlZmY4ZWIiPuKchTwvdGV4dD4KICA8L2c+Cjwvc3ZnPg==" align="right" width="30%" style="margin: -20px 0 0 20px;">
-<h1>SIMPLE-MESSAGEJS</h1>
+<h1>messageJS</h1>
 <p align="left">
  <em><code>❯ Top Message Generate With Pure Javascript </code></em>
 </p>
 <p align="left">
- <img src="https://img.shields.io/github/license/mizuka-wu/simple-messagejs?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
- <img src="https://img.shields.io/github/last-commit/mizuka-wu/simple-messagejs?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
- <img src="https://img.shields.io/github/languages/top/mizuka-wu/simple-messagejs?style=default&color=0080ff" alt="repo-top-language">
- <img src="https://img.shields.io/github/languages/count/mizuka-wu/simple-messagejs?style=default&color=0080ff" alt="repo-language-count">
+ <img src="https://img.shields.io/github/license/mizuka-wu/messagejs?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
+ <img src="https://img.shields.io/github/last-commit/mizuka-wu/messagejs?style=default&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+ <img src="https://img.shields.io/github/languages/top/mizuka-wu/messagejs?style=default&color=0080ff" alt="repo-top-language">
+ <img src="https://img.shields.io/github/languages/count/mizuka-wu/messagejs?style=default&color=0080ff" alt="repo-language-count">
 </p>
 <p align="left"><!-- default option, no dependency badges. -->
 </p>
@@ -53,7 +53,7 @@ If you don't want to introduce the entire component library, but still need a si
 ## 📁 Project Structure
 
 ```sh
-└── simple-messagejs/
+└── messagejs/
     ├── LICENSE
     ├── demo.ts
     ├── doc
@@ -77,21 +77,21 @@ If you don't want to introduce the entire component library, but still need a si
 
 ### ⚙️ Installation
 
-Install simple-messagejs using one of the following methods:
+Install messagejs using one of the following methods:
 
 **Using `npm`** &nbsp;
 
 ```sh
-npm install simple-messagejs --save
+npm install messagejs --save
 ```
 
 ### 🤖 Usage
 
-Run simple-messagejs using the following command:
+Run messagejs using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```typescript
-import { Message } from "simple-message";
+import { Message } from "message";
 
 function showMessage(
   type: "success" | "error" | "info" | "warning" | "loading"
@@ -130,9 +130,9 @@ function showMessage(
 
 ## 🔰 Contributing
 
-- **💬 [Join the Discussions](https://github.com/mizuka-wu/simple-messagejs/discussions)**: Share your insights, provide feedback, or ask questions.
-- **🐛 [Report Issues](https://github.com/mizuka-wu/simple-messagejs/issues)**: Submit bugs found or log feature requests for the `simple-messagejs` project.
-- **💡 [Submit Pull Requests](https://github.com/mizuka-wu/simple-messagejs/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/mizuka-wu/messagejs/discussions)**: Share your insights, provide feedback, or ask questions.
+- **🐛 [Report Issues](https://github.com/mizuka-wu/messagejs/issues)**: Submit bugs found or log feature requests for the `messagejs` project.
+- **💡 [Submit Pull Requests](https://github.com/mizuka-wu/messagejs/blob/main/CONTRIBUTING.md)**: Review open PRs, and submit your own PRs.
 
 ---
 

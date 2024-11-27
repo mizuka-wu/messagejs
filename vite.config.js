@@ -13,7 +13,7 @@ export default defineConfig({
             entry: resolve(__dirname, 'src/index.ts'),
             name: 'SimpleMessage',
             // 将添加适当的扩展名后缀
-            fileName: 'simple-message',
+            fileName: 'message',
         },
         rollupOptions: {
             output: {

@@ -1,19 +1,19 @@
 {
-  "name": "simple-message",
-  "description": "A simple message",
+  "name": "messagejs",
+  "description": "A simple message toast without any dependencies",
   "keywords": [
     "message",
     "toast",
     "typescript"
   ],
-  "types": "./dist/simple-message.d.ts",
-  "main": "./dist/simple-message.umd.cjs",
+  "types": "./dist/message.d.ts",
+  "main": "./dist/message.umd.cjs",
   "version": "0.0.1",
   "type": "module",
   "exports": {
     ".": {
-      "import": "./dist/simple-message.js",
-      "require": "./dist/simple-message.umd.cjs"
+      "import": "./dist/message.js",
+      "require": "./dist/message.umd.cjs"
     }
   },
   "scripts": {

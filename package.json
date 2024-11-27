@@ -6,6 +6,10 @@
     "toast",
     "typescript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mizuka-wu/messagejs"
+  },
   "types": "./dist/message.d.ts",
   "main": "./dist/message.umd.cjs",
   "version": "0.0.1",

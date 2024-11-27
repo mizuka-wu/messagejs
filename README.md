@@ -27,11 +27,10 @@
 - [📁 Project Structure](#-project-structure)
 - [🚀 Getting Started](#-getting-started)
   - [⚙️ Installation](#-installation)
-  - [🤖 Usage](#🤖-usage)
+  - [🤖 Usage](#-usage)
 - [📌 Project Roadmap](#-project-roadmap)
 - [🔰 Contributing](#-contributing)
 - [🎗 License](#-license)
-- [🙌 Acknowledgments](#-acknowledgments)
 
 ---
 
@@ -85,13 +84,13 @@ Install messagejs using one of the following methods:
 npm install messagejs --save
 ```
 
-### 🤖 Usage
+### -Usage
 
 Run messagejs using the following command:
 **Using `npm`** &nbsp; [<img align="center" src="https://img.shields.io/badge/npm-CB3837.svg?style={badge_style}&logo=npm&logoColor=white" />](https://www.npmjs.com/)
 
 ```typescript
-import { Message } from "message";
+import { Message } from "messagejs";
 
 function showMessage(
   type: "success" | "error" | "info" | "warning" | "loading"

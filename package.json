@@ -1,9 +1,20 @@
 {
   "name": "simple-message",
   "description": "A simple message",
-  "main": "dist/index.js",
+  "keywords": [
+    "message",
+    "toast",
+    "typescript"
+  ],
+  "main": "./dist/simple-message.umd.cjs",
   "version": "0.0.1",
   "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/simple-message.js",
+      "require": "./dist/simple-message.umd.cjs"
+    }
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",

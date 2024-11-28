@@ -3,6 +3,9 @@
   "description": "A simple message toast without any dependencies",
   "keywords": [
     "message",
+    "messagejs",
+    "message.js",
+    "element-ui",
     "toast",
     "typescript"
   ],

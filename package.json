@@ -9,6 +9,10 @@
     "toast",
     "typescript"
   ],
+  "files": [
+    "package.json",
+    "dist/"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mizuka-wu/messagejs"

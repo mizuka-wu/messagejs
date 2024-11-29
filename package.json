@@ -19,7 +19,7 @@
   },
   "types": "./dist/message.d.ts",
   "main": "./dist/message.umd.cjs",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "type": "module",
   "exports": {
     ".": {

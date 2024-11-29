@@ -121,6 +121,26 @@ function showMessage(
 
 ---
 
+### Other Example
+
+if you want change the max size display of the message sametime, you can use the following code:
+
+```typescript
+import { Message } from "@mizuka/messagejs";
+
+Message.manager.max = 10; // default 3
+
+```
+
+if you want change the margin between messages , you can use the following code:
+
+```typescript
+import { Message } from "@mizuka/messagejs";
+
+Message.manager.margin = 8; // default 16
+
+```
+
 ## 📌 Project Roadmap
 
 - [X] **`Task 1`**: basic implement

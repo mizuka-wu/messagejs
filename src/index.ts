@@ -101,6 +101,7 @@ export class Message {
     isShown: false,
   };
   onCloseCallbackList: ((instance: Message) => void)[] = [];
+  static manager: MessageManager;
 
   constructor(options: Partial<IMessageOption> & { message: IMessage }) {
     this.options = {
@@ -266,9 +267,7 @@ export class Message {
 
   get isAutoClose() {
     return (
-      !this.options.showClose &&
-      this.options.duration > 0 &&
-      this.options.type !== MessageType.LOADING
+      this.options.duration > 0 && this.options.type !== MessageType.LOADING
     );
   }
 
@@ -341,5 +340,7 @@ export class Message {
     });
   }
 }
+
+Message.manager = messageManager;
 
 export default Message;
